@@ -109,6 +109,12 @@ footer{
   margin-top: 20px;
 }
 
+.kilo {
+  background-color: blue;
+  width: 100%;
+  height: 300px;
+}
+
 @media (max-width: 600px) {
   nav {
     background-color: red;

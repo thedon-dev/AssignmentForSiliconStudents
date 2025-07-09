@@ -82,11 +82,13 @@ img {
   /* border: 1px solid red; */
   color: black;
 }
+footer{
+  background-color: black;
+}
 
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
-  background-color: black;
   padding: 20px 50px;
   color: white;
   gap: 10px;
@@ -100,6 +102,11 @@ footer {
 .socials a {
   color: white;
   text-decoration: none;
+}
+.acknolegdement{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {

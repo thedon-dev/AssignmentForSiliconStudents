@@ -124,4 +124,9 @@ footer {
     margin: auto 0;
     margin-left: 40px;
   }
+
+  .hero > div {
+    flex-direction: column;
+    padding: 10px 0;
+  }
 }

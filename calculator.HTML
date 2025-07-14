@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/b629983a93.js" crossorigin="anonymous"></script>
-  <title>Calculator</title>
-  <link rel="stylesheet" href="calculator.css" />
-</head>
-<body>
-  <div class="calculator">
-    <div class="calcarea" id="calcDisplay">0
-      <!-- <i class="fa-regular fa-clock" id="clock"></i> -->
-    </div>
-    <div class="bg-white">
-      <div class="divider"></div>
-      <div class="elements">
-        <button class="btn top" onclick="showNum('')">AC</button>
-        <button class="btn top" onclick="showNum()">C</button>
-        <button class="btn top" onclick="showNum('%')">%</button>
-        <button class="btn arith" onclick="showNum('/')">/</button>
-        <button class="btn numbers" onclick="showNum(7)">7</button>
-        <button class="btn numbers" onclick="showNum(8)">8</button>
-        <button class="btn numbers" onclick="showNum(9)">9</button>
-        <button class="btn arith" onclick="showNum('*')">*</button>
-        <button class="btn numbers" onclick="showNum(4)">4</button>
-        <button class="btn numbers" onclick="showNum(5)">5</button>
-        <button class="btn numbers" onclick="showNum(6)">6</button>
-        <button class="btn arith" onclick="showNum('-')">-</button>
-        <button class="btn numbers" onclick="showNum(1)">1</button>
-        <button class="btn numbers" onclick="showNum(2)">2</button>
-        <button class="btn numbers" onclick="showNum(3)">3</button>
-        <button class="btn arith" onclick="showNum('+')">+</button>
-        <button class="btn numbers" onclick="showNum()">00</button>
-        <button class="btn numbers" onclick="showNum(0)">0</button>
-        <button class="btn arith" onclick="showNum('.')">.</button>
-        <button class="btn arith" onclick="showNum('=')">=</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b629983a93.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calcarea" id="calcDisplay">
+        0
+        <!-- <i class="fa-regular fa-clock" id="clock"></i> -->
+      </div>
+      <div class="bg-white">
+        <div class="divider"></div>
+        <div class="elements">
+          <button class="btn top" onclick="showNum('')">AC</button>
+          <button class="btn top" onclick="showNum()">C</button>
+          <button class="btn top" onclick="showNum('%')">%</button>
+          <button class="btn arith" onclick="showNum('/')">/</button>
+          <button class="btn numbers" onclick="showNum(7)">7</button>
+          <button class="btn numbers" onclick="showNum(8)">8</button>
+          <button class="btn numbers" onclick="showNum(9)">9</button>
+          <button class="btn arith" onclick="showNum('*')">*</button>
+          <button class="btn numbers" onclick="showNum(4)">4</button>
+          <button class="btn numbers" onclick="showNum(5)">5</button>
+          <button class="btn numbers" onclick="showNum(6)">6</button>
+          <button class="btn arith" onclick="showNum('-')">-</button>
+          <button class="btn numbers" onclick="showNum(1)">1</button>
+          <button class="btn numbers" onclick="showNum(2)">2</button>
+          <button class="btn numbers" onclick="showNum(3)">3</button>
+          <button class="btn arith" onclick="showNum('+')">+</button>
+          <button class="btn numbers" onclick="showNum()">00</button>
+          <button class="btn numbers" onclick="showNum(0)">0</button>
+          <button class="btn arith" onclick="showNum('.')">.</button>
+          <button class="btn arith" onclick="showNum('=')">=</button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="Calc.js"></script>
-</body>
+    <script src="Calc.js"></script>
+  </body>
 </html>

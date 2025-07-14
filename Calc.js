@@ -9,7 +9,7 @@ function showNum(value) {
         return;
     }
 
-    if (typeof value === "undefined") {
+    if (typeof value === "undefined" || 'null ') {
         operator = operator.slice(0, -1);
         display.textContent = operator || "0";
         return;

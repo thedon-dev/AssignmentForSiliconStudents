@@ -1,17 +1,27 @@
-const display = document.getElementById('calcDisplay');
+const display = document.getElementById("calcDisplay");
+const mainBg = document.querySelector(".bg-white")
+const toggleBtn = document.querySelector("#toggleMode")
 
 let operator = "";
+
+toggleBtn.addEventListener("click", toggleMode);
+
+function toggleMode() {
+    mainBg.classList.toggle("bg-white")
+    mainBg.classList.toggle("calDarkMode")
+
+}
 
 function showNum(value) {
     if (value === "") {
         operator = "";
-        display.textContent = "0";
+        display.textContent = "";
         return;
     }
 
     if (typeof value === "undefined" || 'null ') {
         operator = operator.slice(0, -1);
-        display.textContent = operator || "0";
+        display.textContent = operator;
         return;
     }
 
@@ -23,6 +33,4 @@ function showNum(value) {
 
     operator += value;
     display.textContent = operator;
-
 }
-

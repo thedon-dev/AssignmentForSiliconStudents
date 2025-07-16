@@ -6,15 +6,20 @@
 }
 
 body {
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #e8f0fe;
+  font-family: "Arial", sans-serif;
+  overflow: hidden;
+}
+.body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   background-color: #e8f0fe;
   font-family: "Arial", sans-serif;
 }
-
-
 
 .calculator {
   border: 1px solid #ddd;
@@ -51,7 +56,8 @@ body {
 }
 
 .theme-icon:hover {
-  color: #444;
+  color: white;
+  transform: scale(1.05);
 }
 
 .bg-white {
@@ -107,7 +113,19 @@ body {
 
 .calDarkMode {
   background-color: black;
-} 
+}
+
+footer {
+  width: auto;
+  background: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+footer:hover {
+  transform: scale(1.05);
+}
 
 @media (max-width: 400px) {
   .calculator {

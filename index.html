@@ -11,17 +11,18 @@
     <link rel="stylesheet" href="calculator.css" />
   </head>
   <body>
-    <div class="calculator">
+    <div class="calculator bg-white">
       <div class="calcarea">
         <!-- Theme icon positioned top-right -->
-        <i class="fa-solid fa-circle-half-stroke theme-icon"></i>
+         <button id="toggleMode" class="theme-icon">Toggle Mode</button>
+        <i id="toggleMode" class="fa-solid fa-circle-half-stroke theme-icon"></i>
 
         <!-- Display output -->
         <div>
           <label for="text" id="calcDisplay">0</label>
         </div>
       </div>
-      <div class="bg-white">
+      <div class="">
         <div class="divider"></div>
         <div class="elements">
           <button class="btn top" onclick="showNum('')">AC</button>
